@@ -1,0 +1,14 @@
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Modifier.resources
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Supprimer.resources
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Menu_principal.resources
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Ajouter.resources
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
