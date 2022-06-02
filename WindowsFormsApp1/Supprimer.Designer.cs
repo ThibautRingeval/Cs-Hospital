@@ -40,6 +40,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Supprimer";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -53,14 +54,14 @@
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form2
+            // Supprimer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(651, 161);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Name = "Form2";
+            this.Name = "Supprimer";
             this.Text = "Form2";
             this.ResumeLayout(false);
             this.PerformLayout();

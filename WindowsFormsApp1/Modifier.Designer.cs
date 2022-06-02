@@ -30,13 +30,10 @@
         {
             this.Modifier_btn = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.Date_2 = new System.Windows.Forms.DateTimePicker();
-            this.Date_1 = new System.Windows.Forms.DateTimePicker();
             this.Mail_Tb = new System.Windows.Forms.TextBox();
             this.Num_Tb = new System.Windows.Forms.TextBox();
             this.Surname_btn = new System.Windows.Forms.TextBox();
             this.Name_Tb = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -61,20 +58,6 @@
             this.label6.Size = new System.Drawing.Size(77, 24);
             this.label6.TabIndex = 25;
             this.label6.Text = "Modifier";
-            // 
-            // Date_2
-            // 
-            this.Date_2.Location = new System.Drawing.Point(329, 200);
-            this.Date_2.Name = "Date_2";
-            this.Date_2.Size = new System.Drawing.Size(161, 20);
-            this.Date_2.TabIndex = 24;
-            // 
-            // Date_1
-            // 
-            this.Date_1.Location = new System.Drawing.Point(138, 200);
-            this.Date_1.Name = "Date_1";
-            this.Date_1.Size = new System.Drawing.Size(164, 20);
-            this.Date_1.TabIndex = 23;
             // 
             // Mail_Tb
             // 
@@ -103,16 +86,6 @@
             this.Name_Tb.Name = "Name_Tb";
             this.Name_Tb.Size = new System.Drawing.Size(151, 20);
             this.Name_Tb.TabIndex = 19;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.label5.Location = new System.Drawing.Point(28, 200);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(104, 18);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "Rendez-vous :";
             // 
             // label4
             // 
@@ -161,13 +134,10 @@
             this.ClientSize = new System.Drawing.Size(518, 304);
             this.Controls.Add(this.Modifier_btn);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.Date_2);
-            this.Controls.Add(this.Date_1);
             this.Controls.Add(this.Mail_Tb);
             this.Controls.Add(this.Num_Tb);
             this.Controls.Add(this.Surname_btn);
             this.Controls.Add(this.Name_Tb);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -183,13 +153,10 @@
 
         private System.Windows.Forms.Button Modifier_btn;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DateTimePicker Date_2;
-        private System.Windows.Forms.DateTimePicker Date_1;
         private System.Windows.Forms.TextBox Mail_Tb;
         private System.Windows.Forms.TextBox Num_Tb;
         private System.Windows.Forms.TextBox Surname_btn;
         private System.Windows.Forms.TextBox Name_Tb;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;

@@ -12,3 +12,10 @@ C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\bin\Debug\WindowsFormsA
 C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\bin\Debug\ClassLibrary2.dll
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\bin\Debug\NuGet.Frameworks.dll
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\bin\Debug\ClassLibrary2.pdb
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\bin\Debug\NuGet.Frameworks.xml
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete

@@ -7,6 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Newtonsoft.Json;
+using System.IO;
+using System.Net;
+using System.Text;
+using ClassLibrary2;
 
 namespace WindowsFormsApp1
 {
@@ -15,27 +20,52 @@ namespace WindowsFormsApp1
         public Menu_principal()
         {
             InitializeComponent();
+            // Appel à l'API Liste des roles
+            string url = "http://127.0.0.1:8000/api/employers";
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+            request.Method = "GET";
+
+            WebResponse webResponse = request.GetResponse();
+
+            var webStream = webResponse.GetResponseStream();
+            string data = new StreamReader(webStream).ReadToEnd();
+            Console.WriteLine("test");
+            Console.WriteLine(data);
+
+            Employers employers = JsonConvert.DeserializeObject<Employers>(data);
+            this.ListboxEmployers.DataSource = employers.ListEmployers;
+        }
+
+
+        private void Menu_principal_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Ajouter ajouter = new Ajouter();
-            Ajouter.Show();
+            ajouter.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Supprimer supprimer = new Supprimer();
-            Supprimer.Show();
+            Supprimer supprimer = new Supprimer((Employer)this.ListboxEmployers.SelectedItem);
+            supprimer.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Modifier modifier = new Modifier();
-            Modifier.Show();
+            modifier.Show();
         }
 
         private void Occupation_lit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ListboxEmployers_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

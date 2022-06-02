@@ -28,31 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Ajouter = new System.Windows.Forms.Button();
+            this.Ajouter_btn = new System.Windows.Forms.Button();
             this.Supprimer = new System.Windows.Forms.Button();
             this.Modifier = new System.Windows.Forms.Button();
-            this.Occupation_lit = new System.Windows.Forms.Button();
+            this.ListboxEmployers = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // Ajouter_btn
             // 
-            this.groupBox1.Location = new System.Drawing.Point(28, 26);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(523, 385);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
-            // 
-            // Ajouter
-            // 
-            this.Ajouter.Location = new System.Drawing.Point(557, 26);
-            this.Ajouter.Name = "Ajouter";
-            this.Ajouter.Size = new System.Drawing.Size(199, 43);
-            this.Ajouter.TabIndex = 1;
-            this.Ajouter.Text = "Ajouter";
-            this.Ajouter.UseVisualStyleBackColor = true;
-            this.Ajouter.Click += new System.EventHandler(this.button1_Click);
+            this.Ajouter_btn.Location = new System.Drawing.Point(557, 26);
+            this.Ajouter_btn.Name = "Ajouter_btn";
+            this.Ajouter_btn.Size = new System.Drawing.Size(199, 43);
+            this.Ajouter_btn.TabIndex = 1;
+            this.Ajouter_btn.Text = "Ajouter";
+            this.Ajouter_btn.UseVisualStyleBackColor = true;
+            this.Ajouter_btn.Click += new System.EventHandler(this.button1_Click);
             // 
             // Supprimer
             // 
@@ -74,38 +64,35 @@
             this.Modifier.UseVisualStyleBackColor = true;
             this.Modifier.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Occupation_lit
+            // ListboxEmployers
             // 
-            this.Occupation_lit.Location = new System.Drawing.Point(557, 173);
-            this.Occupation_lit.Name = "Occupation_lit";
-            this.Occupation_lit.Size = new System.Drawing.Size(199, 42);
-            this.Occupation_lit.TabIndex = 4;
-            this.Occupation_lit.Text = "Occupation des lits";
-            this.Occupation_lit.UseVisualStyleBackColor = true;
-            this.Occupation_lit.Click += new System.EventHandler(this.Occupation_lit_Click);
+            this.ListboxEmployers.FormattingEnabled = true;
+            this.ListboxEmployers.Location = new System.Drawing.Point(44, 26);
+            this.ListboxEmployers.Name = "ListboxEmployers";
+            this.ListboxEmployers.Size = new System.Drawing.Size(507, 394);
+            this.ListboxEmployers.TabIndex = 5;
+            this.ListboxEmployers.SelectedIndexChanged += new System.EventHandler(this.ListboxEmployers_SelectedIndexChanged);
             // 
             // Menu_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Occupation_lit);
+            this.Controls.Add(this.ListboxEmployers);
             this.Controls.Add(this.Modifier);
             this.Controls.Add(this.Supprimer);
-            this.Controls.Add(this.Ajouter);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.Ajouter_btn);
             this.Name = "Menu_principal";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Menu_principal_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button Ajouter;
+        private System.Windows.Forms.Button Ajouter_btn;
         private System.Windows.Forms.Button Supprimer;
         private System.Windows.Forms.Button Modifier;
-        private System.Windows.Forms.Button Occupation_lit;
+        private System.Windows.Forms.ListBox ListboxEmployers;
     }
 }
