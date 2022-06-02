@@ -9,7 +9,7 @@ namespace ClassLibrary2
     public class Employer
     {
         public int id;
-        public string id_service_id;
+        public string id_service;
         public string email;
         public List<string> roles;
         public string password;
@@ -24,7 +24,7 @@ namespace ClassLibrary2
         }
         public Employer(string id_service, string email, List<string> roles, string password, string fonction, string num_secu_social, string nom, string prenom, string telephone)
         {
-            this.id_service_id = id_service;
+            this.id_service = id_service;
             this.email = email;
             this.roles = roles;
             this.password = password;

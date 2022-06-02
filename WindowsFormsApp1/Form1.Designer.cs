@@ -3,14 +3,14 @@
     partial class Form1
     {
         /// <summary>
-        /// Variable nécessaire au concepteur.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Nettoyage des ressources utilisées.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,89 +20,54 @@
             base.Dispose(disposing);
         }
 
-        #region Code généré par le Concepteur Windows Form
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Méthode requise pour la prise en charge du concepteur - ne modifiez pas
-        /// le contenu de cette méthode avec l'éditeur de code.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Ajouter_btn = new System.Windows.Forms.Button();
-            this.Supprimer_btn = new System.Windows.Forms.Button();
-            this.Modifier_btn = new System.Windows.Forms.Button();
-            this.Consulter_btn = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // listBox1
             // 
-            this.groupBox1.Location = new System.Drawing.Point(44, 27);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(401, 395);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(111, 87);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(332, 290);
+            this.listBox1.TabIndex = 0;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
-            // Ajouter_btn
+            // label1
             // 
-            this.Ajouter_btn.Location = new System.Drawing.Point(480, 27);
-            this.Ajouter_btn.Name = "Ajouter_btn";
-            this.Ajouter_btn.Size = new System.Drawing.Size(202, 54);
-            this.Ajouter_btn.TabIndex = 1;
-            this.Ajouter_btn.Text = "Ajouter";
-            this.Ajouter_btn.UseVisualStyleBackColor = true;
-            // 
-            // Supprimer_btn
-            // 
-            this.Supprimer_btn.Location = new System.Drawing.Point(480, 101);
-            this.Supprimer_btn.Name = "Supprimer_btn";
-            this.Supprimer_btn.Size = new System.Drawing.Size(201, 50);
-            this.Supprimer_btn.TabIndex = 2;
-            this.Supprimer_btn.Text = "Supprimer";
-            this.Supprimer_btn.UseVisualStyleBackColor = true;
-            // 
-            // Modifier_btn
-            // 
-            this.Modifier_btn.Location = new System.Drawing.Point(480, 173);
-            this.Modifier_btn.Name = "Modifier_btn";
-            this.Modifier_btn.Size = new System.Drawing.Size(201, 50);
-            this.Modifier_btn.TabIndex = 3;
-            this.Modifier_btn.Text = "Modifier";
-            this.Modifier_btn.UseVisualStyleBackColor = true;
-            // 
-            // Consulter_btn
-            // 
-            this.Consulter_btn.Location = new System.Drawing.Point(484, 247);
-            this.Consulter_btn.Name = "Consulter_btn";
-            this.Consulter_btn.Size = new System.Drawing.Size(196, 43);
-            this.Consulter_btn.TabIndex = 4;
-            this.Consulter_btn.Text = "Consulter";
-            this.Consulter_btn.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.label1.Location = new System.Drawing.Point(210, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(156, 24);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Liste des Vaccins";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(701, 450);
-            this.Controls.Add(this.Consulter_btn);
-            this.Controls.Add(this.Modifier_btn);
-            this.Controls.Add(this.Supprimer_btn);
-            this.Controls.Add(this.Ajouter_btn);
-            this.Controls.Add(this.groupBox1);
+            this.ClientSize = new System.Drawing.Size(555, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.listBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Vaccins";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button Ajouter_btn;
-        private System.Windows.Forms.Button Supprimer_btn;
-        private System.Windows.Forms.Button Modifier_btn;
-        private System.Windows.Forms.Button Consulter_btn;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
-

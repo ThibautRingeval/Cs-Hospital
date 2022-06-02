@@ -19,3 +19,9 @@ C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\bin\Debug\ClassLibrary2
 C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
 C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\bin\Debug\NuGet.Frameworks.xml
 C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Lits.resources
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.NombrePatient.resources
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+C:\Users\thiba\source\repos\Cs-Hospital\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Vaccin.resources

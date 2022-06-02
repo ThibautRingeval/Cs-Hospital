@@ -34,6 +34,9 @@ namespace WindowsFormsApp1
 
             Employers employers = JsonConvert.DeserializeObject<Employers>(data);
             this.ListboxEmployers.DataSource = employers.ListEmployers;
+
+
+
         }
 
 
@@ -68,6 +71,24 @@ namespace WindowsFormsApp1
         private void ListboxEmployers_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Lits lits = new Lits();
+            lits.Show();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Vaccin vaccin = new Vaccin();
+            vaccin.Show();
         }
     }
 }

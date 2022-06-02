@@ -143,7 +143,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Modifier";
-            this.Text = "Form5";
+            this.Text = "Modifier";
             this.ResumeLayout(false);
             this.PerformLayout();
 

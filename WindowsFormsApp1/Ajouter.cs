@@ -14,6 +14,7 @@ using System.Text;
 using ClassLibrary2;
 
 
+
 namespace WindowsFormsApp1
 {
     public partial class Ajouter : Form
@@ -42,7 +43,8 @@ namespace WindowsFormsApp1
             List<string> roll = new List<string>();
             roll.Add((string)this.Role_cb.SelectedItem);
             Service service = (Service)(this.Service_Cb.SelectedItem);
-            Employer employer = new Employer($"\\/api\\/services\\/{service.id}", this.Mail_Tb.Text, roll , this.Password_tb.Text, this.Function_tb.Text, this.Numsec_tb.Text , this.Name_Tb.Text, this.Surname_Tb.Text, this.Num_Tb.Text);
+
+            Employer employer = new Employer($"/api/services/{service.id}", this.Mail_Tb.Text, roll , this.Password_tb.Text, this.Function_tb.Text, this.Numsec_tb.Text , this.Name_Tb.Text, this.Surname_Tb.Text, this.Num_Tb.Text);
             string url = "http://127.0.0.1:8000/api/employers";
             var request = WebRequest.Create(url);
             request.Method = "POST";
@@ -55,7 +57,6 @@ namespace WindowsFormsApp1
 
             var reqStream = request.GetRequestStream();
             reqStream.Write(byteArray, 0, byteArray.Length);
-
             var response = request.GetResponse();
             Console.WriteLine(((HttpWebResponse)response).StatusDescription);
 
